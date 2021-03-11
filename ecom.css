@@ -1,0 +1,1579 @@
+/* navbar */
+.mynavbar {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 0px;
+  z-index: 1020;
+  position: sticky;
+  top: 0px;
+}
+
+.Logo {
+  height: 48px;
+  padding-left: 35px;
+}
+
+.mybrand {
+  width: 20%;
+}
+
+.mynav {
+  width: 50%;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+
+.nav-search {
+  width: 36%;
+}
+
+.mysearch {
+  position: absolute;
+  right: 157px;
+  bottom: 12px;
+  background-color: black;
+  border-radius: 87%;
+  color: white;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.ser-box {
+  line-height: 2;
+  border-radius: 6.25rem;
+  background-color: #ced4da42;
+  border: none;
+  font-size: 20px;
+}
+
+.mybag {
+  position: absolute;
+  left: 92%;
+  color: black;
+  font-size: 28px;
+}
+
+.mynot {
+  width: 17px;
+  position: absolute;
+  height: 17px;
+  left: 92%;
+  bottom: 17px;
+  font-size: 8px !important;
+  background-color: red !important;
+}
+
+.nav-img {
+  position: absolute;
+  left: 95%;
+}
+
+.nav-img1 {
+  width: 75px;
+  height: 74px;
+}
+.aksh {
+  font-weight: 500;
+    font-size: 20px;
+    width: 10%;
+    position: absolute;
+    top: 74px;
+    left: 90%;
+    background-color: white;
+    text-align: center;
+    z-index: 1;
+    padding: 7px;
+}
+
+
+
+/* first section */
+.dom-img {
+  margin: 0px auto;
+  width: 90% !important;
+}
+
+.bullets {
+  left: 67% !important;
+  width: 158px;
+}
+
+/* .mycar {
+  width: 94%;
+} */
+
+.mydot {
+  margin-right: 15px !important;
+  width: 8px !important;
+  height: 9px !important;
+  border-radius: 50% !important;
+}
+
+.myprev {
+  background-image: url(./right-1.svg) !important;
+  position: absolute;
+  left: 20px;
+}
+
+.mynext {
+  background-image: url(./right001\ -\ E012.svg) !important;
+  position: absolute;
+  right: 20px;
+}
+
+/* .leftprev {
+  left: 0px;
+}
+
+.rightnext {
+  right: 91px;
+} */
+
+.first {
+  position: relative;
+}
+
+.first-pass {
+  font-weight: 300;
+  width: 36%;
+  font-size: 32px;
+  height: 37%;
+  position: absolute;
+  left: 2%;
+  top: 64%;
+  background: white;
+}
+
+.pass-1 {
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.pass-2 {
+  font-size: 17px;
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.check {
+  border-radius: 5px;
+  background-color: black;
+  height: 9%;
+  position: absolute;
+  left: 80%;
+  bottom: 0;
+  width: 17%;
+  top: 81%;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.p-check {
+  margin: 0px;
+  padding: 0px;
+}
+
+.myarrow {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.Products {
+  text-align: center;
+  margin: revert !important;
+  font-weight: 100;
+}
+
+.myhr {
+  opacity: 2.25 !important;
+  left: 40%;
+  width: 3%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  bottom: 15px;
+}
+
+/* second card section */
+
+.sec-img {
+  height: 400px;
+  width: 330px;
+}
+
+.sec-text {
+  padding: 15px;
+  background-color: white;
+  right: 0px;
+  bottom: 14px;
+  position: absolute;
+  width: 82%;
+  height: 23%;
+  display: flex;
+  gap: 56px;
+}
+
+.sec-text1{
+  width: 50%;
+}
+
+.sec-text2{
+width: 30%;
+}
+
+.mymute{
+  font-size: 10px !important;
+    font-weight: 600 !important;
+}
+
+
+.mycard-grp {
+  margin: 0px auto;
+  width: 95%;
+}
+
+.mycard {
+  position: relative;
+  display: grid !important;
+  place-items: center;
+  border: none !important;
+}
+
+.mytitle {
+  height: 6%;
+  width: 40%;
+  font-size: 18px;
+  position: absolute;
+  right: 82px;
+  top: 7px !important;
+  color: white;
+  background-color: #097dec;
+  top: 0px;
+  text-align: center;
+}
+
+.mytitle1 {
+  position: absolute;
+  color: black;
+  background-color: white;
+  top: 0px;
+  left: 73px;
+  width: 56px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.rupee {
+  color: springgreen;
+}
+
+.rupee1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ced4da42;
+}
+.mrp {
+  height: 13px;
+  background-color: #cad6dc;
+  width: 22px;
+  font-size: 10px;
+  position: absolute;
+  right: -4px;
+  bottom: 6px;
+  transform: rotate(90deg);
+}
+.star-color {
+  color: yellow;
+}
+
+/* Third-card section */
+
+.myhr1 {
+  opacity: 2.25 !important;
+  left: 41%;
+  width: 3%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  bottom: 15px;
+}
+
+.third-img {
+  height: 300px;
+  width: 250px;
+}
+
+.mytitle-3 {
+  padding: 9px;
+  height: 50px;
+  position: absolute;
+  color: black;
+  background-color: white;
+  left: 25px;
+  top: 74%;
+  width: 240px;
+}
+
+.mute-3 {
+  position: absolute;
+  bottom: 40px;
+  left: 34px;
+}
+
+.explore {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  left: 48%;
+  width: 15%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  height: 48px;
+  border-radius: 5px;
+}
+
+/* fourth section */
+
+.fourth {
+  position: relative;
+  margin: 65px auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.fourth-img {
+  height: 100%;
+  width: 90%;
+}
+
+.fourth-pass1 {
+  position: absolute;
+  font-size: 31px;
+  width: 27%;
+  height: 11%;
+  bottom: 0px;
+  background-color: white;
+}
+
+.fourth-pass2 {
+  right: 5%;
+  position: absolute;
+  font-size: 30px;
+  width: 24%;
+  height: 11%;
+  bottom: 0px;
+  background-color: white;
+  text-align: right;
+}
+
+.explore1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  left: 9%;
+  width: 40%;
+  position: relative;
+  height: 51px;
+  border-radius: 5px;
+  top: 6px;
+}
+
+.explore2 {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  left: 56%;
+  width: 40%;
+  position: relative;
+  height: 51px;
+  border-radius: 5px;
+  top: 6px;
+}
+
+/* fifth section */
+
+.automobile {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.myhr3 {
+  opacity: 2.25 !important;
+  left: 34%;
+  width: 4%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  bottom: 15px;
+}
+
+.explore3 {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  left: 48%;
+  width: 19%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  height: 59px;
+  border-radius: 5px;
+}
+
+.myadvert {
+  border: 6px solid white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 88px;
+    left: 120px;
+  font-size: 44px;
+  color: white;
+  padding: 10px;
+}
+
+/* seventh section */
+
+.myhr4 {
+  opacity: 2.25 !important;
+  left: 36%;
+  width: 3%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  bottom: 15px;
+}
+
+.bullets1 {
+  top: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  left: 30% !important;
+  width: 155px;
+}
+
+.mydot-c{
+  opacity: 1.5 !important;
+  color: black !important;
+  width: 8px !important;
+  height: 11px !important;
+  border-radius: 50% !important;
+  background-color: black !important;
+}
+
+.mydot1 {
+  background-color: black !important;
+  width: 8px !important;
+  height: 11px !important;
+  border-radius: 50% !important;
+}
+
+/* Footer section */
+
+.myfoot {
+  width: 100%;
+  margin: 100px auto !important;
+}
+
+#footer {
+  display: flex !important;
+}
+
+.logo1 {
+  background-color: black;
+  height: 128px;
+  width: 20%;
+  padding: 30px;
+}
+
+.footer__top {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-top__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-detail {
+  color: #9e9e9e;
+  text-decoration: none;
+}
+
+.footer1 {
+  background-color: grey;
+  line-height: 3;
+  text-align: center;
+}
+
+.footer-top__box a {
+  margin-top: 12px;
+  font-size: 17px;
+}
+
+.footer-top__box h3 {
+  font-size: 22px;
+}
+
+/*---------------------------------- Media Queries------------------------------------- */
+
+/* -------------Desktops and laptops--------------------------- */
+
+@media (min-width: 1024px){
+
+
+/* first-section */
+
+/* .pass-1 {
+  font-size: 17px;
+  margin-top: 12px;
+}
+
+.pass-2 {
+  font-size: 13px;
+  margin-top: 18px;
+}
+
+.check {
+  top: 75%;
+}
+
+.bullets {
+  left: 60% !important;
+}
+
+.myprev {
+  left: 0px;
+}
+
+.mynext {
+  right: 0px;
+}
+
+.aksh {
+  font-size: 15px;
+  width: 14%;
+  top: -1px;
+  left: 86%;
+  height: 11%;
+} */
+
+/* second-section */
+
+/* .myhr {
+  left:35% !important;
+}
+
+.mycard-grp {
+  width: 90%;
+}
+
+.sec-img {
+  height: 300px;
+  width: 250px !important; 
+}
+
+.sec-text {
+  padding: 0px;
+  font-size: 12px !important;
+  bottom: 54px;
+  left: 56px;
+  width: 78%;
+  height: 18%;
+}
+
+.mytitle {
+  left: 150px !important;
+  width: 113px !important;
+  font-size: 13px !important;
+}
+
+.mytitle1 {
+  left: 29px !important;
+    width: 50px;
+    font-size: 16px !important;
+}
+
+.mrp {
+  height: 10px;
+  width: 18px;
+  font-size: 8px;
+  right: -4px;
+  bottom: 2px;
+}
+
+/* Third-section */
+
+/* .myhr1 {
+  left: 37% !important;
+  width: 4%;
+}
+
+.third-img {
+  height: 300px;
+  width: 200px !important;
+}
+
+.mytitle-3 {
+  padding: 5px;
+  left: 10px;
+  width: 133px;
+}
+
+.mute-3 {
+  bottom: 13px;
+  left: 17px;
+}
+
+.explore {
+  font-size: 16px;
+  margin-top: 7%;
+}  */
+
+/* Fourth-section */
+
+/* .fourth-pass1 {
+  font-size: 20px;
+  width: 32%;
+  height: 10%;
+}
+
+.fourth-pass2 {
+  font-size: 20px;
+  width: 32%;
+  height: 10%;
+} */
+
+/* Fifth-section */
+
+/* .myhr3 {
+  left: 28% !important;
+  width: 5%;
+}
+
+.automobile {
+  margin-top: 15%;
+}
+
+.myadvert {
+  border: 5px solid white;
+  bottom: 89px;
+  left: 60px !;
+    font-size: 32px !important;
+  padding: 10px;
+}
+
+.explore3 {
+  font-size: 15px;
+  left: 48%;
+  width: 23%;
+  height: 46px;
+} */
+
+/* Seventh-Section */
+
+/* .myhr4 {
+  left: 27%;
+  width: 5%;
+}
+.bullets1 {
+  top: 85%;
+} */
+
+
+
+
+
+
+  
+}
+
+/* ----------------Tablests and ipads--------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* navbar */
+
+  .mybrand {
+    width: 18%;
+  }
+
+
+  .Logo {
+    height: 48px;
+    padding-left: 35px;
+  }
+
+  .mynav {
+    width: 54%;
+  }
+
+  .nav-search {
+    width: 30%;
+  }
+
+  .mysearch {
+    right: 110px;
+    height: 53px;
+    width: 53px;
+    font-size: 27px;
+  }
+
+  .ser-box {
+    border-radius: 2.25rem;
+    font-size: 17px;
+  }
+
+  .mybag {
+    left: 91%;
+  }
+
+  .mynot {
+    left: 90%;
+  }
+
+  .nav-img {
+    left: 94%;
+  }
+
+  .nav-img1 {
+    width: 65px;
+    height: 65px;
+  }
+
+  .aksh {
+    font-size: 15px !important;
+    width: 16% !important;
+    top: 74px !important;
+    left: 85% !important;
+    height: 43% !important;
+  }
+  
+
+
+  /* first-section */
+
+  .pass-1 {
+    font-size: 17px;
+    margin-top: 12px;
+  }
+
+  .pass-2 {
+    font-size: 13px;
+    margin-top: 18px;
+  }
+
+  .check {
+    top: 75%;
+  }
+
+  .bullets {
+    left: 60% !important;
+  }
+
+  .myprev {
+    left: 0px;
+  }
+
+  .mynext {
+    right: 0px;
+  }
+
+  .aksh {
+    font-size: 15px;
+    width: 14%;
+    top: -1px;
+    left: 86%;
+    height: 11%;
+  }
+
+  /* second-section */
+
+  .myhr {
+    left: 32%;
+    width: 4%;
+  }
+
+  .mycard-grp {
+    width: 90%;
+  }
+
+  .sec-img {
+    height: 300px;
+    width: 180px;
+  }
+
+  .sec-text {
+    padding: 0px;
+    font-size: 8px;
+    bottom: 54px;
+    left: 56px;
+    width: 78%;
+    height: 18%;
+  }
+
+  .mytitle {
+    left: 104px;
+    width: 94px;
+    font-size: 11px;
+  }
+
+  .mytitle1 {
+    left: 21px;
+    width: 50px;
+    font-size: 13px;
+  }
+
+  .mrp {
+    height: 10px;
+    width: 18px;
+    font-size: 8px;
+    right: -4px;
+    bottom: 2px;
+  }
+
+  /* Third-section */
+
+  .myhr1 {
+    left: 35%;
+    width: 4%;
+  }
+
+  .third-img {
+    height: 300px;
+    width: 150px;
+  }
+
+  .mytitle-3 {
+    padding: 5px;
+    left: 10px;
+    width: 133px;
+  }
+
+  .mute-3 {
+    bottom: 13px;
+    left: 17px;
+  }
+
+  .explore {
+    font-size: 16px;
+    margin-top: 7%;
+  }
+
+  /* Fourth-section */
+
+  .fourth-pass1 {
+    font-size: 20px;
+    width: 32%;
+    height: 10%;
+  }
+
+  .fourth-pass2 {
+    font-size: 20px;
+    width: 32%;
+    height: 10%;
+  }
+
+  /* Fifth-section */
+
+  .myhr3 {
+    left: 24%;
+    width: 5%;
+  }
+
+  .automobile {
+    margin-top: 15%;
+  }
+
+  .myadvert {
+    border: 5px solid white;
+    bottom: 89px;
+    left: 48px;
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .explore3 {
+    font-size: 15px;
+    left: 48%;
+    width: 23%;
+    height: 46px;
+  }
+
+  /* Seventh-Section */
+
+  .myhr4 {
+    left: 27%;
+    width: 5%;
+  }
+  .bullets1 {
+    top: 85%;
+  }
+}
+
+/* -----------------Mobile phones---------------------------------------- */
+
+@media (max-width: 767px) {
+  /* navbar */
+
+  .mybrand {
+    width: 18%;
+  }
+
+  .Logo {
+    height: 48px;
+    padding-left: 0px;
+ }
+
+  .mynav {
+    width: 54%;
+  }
+
+  .nav-search {
+    width: 72%;
+  }
+
+  .mysearch {
+    right: 121px;
+    height: 48px;
+    width: 48px;
+    font-size: 27px;
+  }
+
+  .ser-box {
+    border-radius: 2.25rem;
+    font-size: 17px;
+  }
+
+  .mybag {
+    left: 81%;
+  }
+
+  .mynot {
+    left: 80%;
+    bottom: 15px;
+  }
+
+  .nav-img {
+    margin-top: -54px;
+    left: 88%;
+  }
+
+  .nav-img1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .aksh {
+    font-size: 12px !important;
+    width: 18% !important;
+    top: 74px !important;
+    left: 82% !important;
+    height: 43% !important;
+  }
+
+  /* first-section */
+
+  .dom-img {
+    width: 85% !important;
+  }
+
+  .pass-1 {
+    font-size: 11px;
+    margin-top: 8px;
+  }
+
+  .pass-2 {
+    font-size: 9px;
+    margin-top: 2px;
+  }
+
+  .check {
+    top: 75%;
+    border-radius: 6px;
+    height: 10%;
+    left: 72%;
+    bottom: 0;
+    width: 23%;
+    top: 70%;
+    font-size: 12px;
+  }
+
+  .bullets {
+    top: 83%;
+    left: 53% !important;
+    width: 130px;
+  }
+
+  .mydot {
+    margin-right: 7px !important;
+    width: 7px !important;
+    height: 7px !important;
+  }
+
+  .myprev {
+    height: 23px;
+    width: 23px;
+    left: 0px;
+  }
+
+  .mynext {
+    height: 23px;
+    width: 23px;
+    right: 0px;
+  }
+
+  
+
+  /* second-section */
+
+  .myhr {
+    left: 28%;
+    width: 6%;
+  }
+
+  .mycard-grp {
+    width: 90%;
+  }
+
+  .sec-img {
+    height: 350px;
+    width: 250px;
+  }
+
+  .sec-text {
+    padding: 5px;
+    bottom: 64px;
+    left: 135px;
+    width: 75%;
+    height: 19%;
+    gap: 10px;
+  }
+
+  .sec-text1{
+    width: 41%;
+  }
+
+.sec-text2{
+width: 30%;
+}
+
+  .mytitle {
+    width: 33%;
+    right: 128px;
+    top: 7px !important;
+    top: 0px;
+  }
+
+  .mytitle1 {
+    top: 0px;
+    left: 118px;
+    width: 56px;
+  }
+
+  .mrp {
+    height: 16px;
+    width: 20px;
+    font-size: 8px;
+    right: -1px;
+    bottom: 5px;
+  }
+
+  /* Third-section */
+
+  .myhr1 {
+    left: 31%;
+    width: 5%;
+  }
+
+  .third-img {
+    height: 300px;
+    width: 250px;
+  }
+
+  .mytitle-3 {
+    padding: 5px;
+    left: 29px;
+    width: 208px;
+    font-size: 20px;
+  }
+
+  .mute-3 {
+    bottom: 38px;
+    left: 35px;
+  }
+
+  .explore {
+    width: 50%;
+    font-size: px;
+    margin-top: 7%;
+  }
+
+  /* Fourth-section */
+
+  .fourth {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .shoes {
+    position: relative !important;
+  }
+
+  .explore1 {
+    position: absolute !important;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    width: 40%;
+    height: 18%;
+    border-radius: 5px;
+    top: 311px;
+    left: 30px;
+  }
+
+  .fourth-pass1 {
+    font-size: 20px;
+    width: 51%;
+    height: 13%;
+  }
+
+  .camera {
+    position: relative !important;
+    margin-top: 25%;
+  }
+
+  .explore2 {
+    position: absolute !important;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    width: 40%;
+    height: 18%;
+    border-radius: 5px;
+    top: 311px;
+  }
+
+  .fourth-pass2 {
+    font-size: 20px;
+    width: 40%;
+    height: 13%;
+  }
+
+  /* Fifth-section */
+
+  .myhr3 {
+    left: 25%;
+    width: 6%;
+  }
+
+  .automobile {
+    margin-top: 30%;
+    font-size: 22px;
+  }
+
+  .myadvert {
+    border: 5px solid white;
+    bottom: 101px;
+    left: 140px;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .explore3 {
+    font-size: 15px;
+    left: 47%;
+    width: 44%;
+    height: 47px;
+  }
+
+  /* sixth-section */
+
+  #six-check {
+    border-radius: 6px;
+    height: 13%;
+    left: 71%;
+    bottom: 0;
+    width: 23%;
+    top: 76%;
+    font-size: 10px;
+  }
+
+  /* Seventh-Section */
+
+  .myhr4 {
+    left: 28%;
+    width: 6%;
+  }
+  .bullets1 {
+    top: 85%;
+  }
+
+  /* Footer-section */
+
+  .logo1 {
+    height: 110px;
+    width: 235px;
+  }
+
+  .myfoot {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top__box {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .footer-top__box a {
+    margin-top: 10px;
+    font-size: 9px;
+  }
+
+  .footer-top__box h3 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .footer1 {
+    font-size: 12px;
+  }
+}
+  @media (max-width: 468px) {
+    /* navbar */
+
+    .mybrand {
+      width: 18%;
+    }
+
+    .Logo {
+      height: 48px;
+      padding-left: 0px;
+  }
+
+    .mynav {
+      width: 54%;
+    }
+
+    .nav-search {
+      width: 72%;
+    }
+
+    .mysearch {
+      right: 130px;
+      bottom: 8px;
+      height: 48px;
+      width: 48px;
+      font-size: 25px;
+    }
+
+    .ser-box {
+      border-radius: 2.25rem;
+      font-size: 17px;
+    }
+
+    .mybag {
+      left: 72%;
+    }
+
+    .mynot {
+      left: 70%;
+    }
+
+    .nav-img {
+      margin-top: -54px;
+      left: 84%;
+    }
+
+    .nav-img1 {
+      width: 50px;
+      height: 50px;
+    }
+
+    .aksh {
+      font-size: 7px !important;
+    width: 20% !important;
+    top: 73px !important;
+    left: 78% !important;
+    height: 37% !important;
+    }
+
+    /* first-section */
+
+    .dom-img {
+      width: 85% !important;
+    }
+
+    .first-pass{
+      left: 3%;
+      width: 38%;
+    }
+
+    .pass-1 {
+      font-size: 9px;
+      margin-top: 4px;
+    }
+
+    .pass-2 {
+      font-size: 6px;
+      margin-top: 2px;
+    }
+
+    .check {
+      top: 75%;
+      border-radius: 3px;
+      height: 12%;
+      left: 72%;
+      bottom: 0;
+      width: 23%;
+      top: 70%;
+      font-size: 9px;
+    }
+
+    .bullets {
+      top: 79%;
+      left: 45% !important;
+      width: 130px;
+    }
+
+    .mydot {
+      margin-right: 5px !important;
+      width: 5px !important;
+      height: 5px !important;
+    }
+
+    .myprev {
+      height: 23px;
+      width: 23px;
+      left: 0px;
+    }
+
+    .mynext {
+      height: 23px;
+      width: 23px;
+      right: 0px;
+    }
+
+    
+
+    /* second-section */
+
+    .myhr {
+      left: 23%;
+      width: 6%;
+    }
+
+    .mycard-grp {
+      width: 90%;
+    }
+
+    .sec-img {
+      height: 350px;
+      width: 250px;
+    }
+
+    .sec-text {
+      padding: 6px;
+      bottom: 64px;
+      left: 55px;
+      width: 86%;
+    height: 19%;
+    gap: 7px;
+    }
+
+    .sec-text1{
+      width: 55%;
+    }
+
+    .sec-text2{
+      width: 37%;
+    }
+
+    .mytitle {
+      width: 45%;
+    right: 70px;
+      top: 7px !important;
+      top: 0px;
+    }
+
+    .mytitle1 {
+      top: 0px;
+      left: 34px;
+      width: 56px;
+    }
+
+    .mrp {
+      height: 16px;
+      width: 20px;
+      font-size: 8px;
+      right: -1px;
+      bottom: 5px;
+    }
+
+    /* Third-section */
+
+    .myhr1 {
+      left: 26%;
+      width: 5%;
+    }
+
+    .third-img {
+      height: 300px;
+      width: 250px;
+    }
+
+    .mytitle-3 {
+      padding: 5px;
+      left: 29px;
+      width: 208px;
+      font-size: 20px;
+    }
+
+    .mute-3 {
+      bottom: 38px;
+      left: 35px;
+    }
+
+    .explore {
+      width: 50%;
+      font-size: px;
+      margin-top: 7%;
+    }
+
+     /* Fourth-section */
+
+  .fourth {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .shoes {
+    position: relative !important;
+  }
+
+  .explore1 {
+    position: absolute !important;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    width: 40%;
+    height: 18%;
+    border-radius: 5px;
+    top: 230px;
+    left: 30px;
+  }
+
+  .fourth-pass1 {
+    font-size: 16px;
+    width: 60%;
+    height: 13%;
+  }
+
+  .camera {
+    position: relative !important;
+    margin-top: 25%;
+  }
+
+  .explore2 {
+    position: absolute !important;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    width: 40%;
+    height: 18%;
+    border-radius: 5px;
+    top: 230px;
+  }
+
+  .fourth-pass2 {
+    font-size: 16px;
+    width: 60%;
+    height: 13%;
+  }
+
+    /* Fifth-section */
+
+    .myhr3 {
+      left: 18%;
+      width: 6%;
+    }
+
+    .automobile {
+      margin-top: 30%;
+      font-size: 22px;
+    }
+
+    .myadvert {
+      border: 5px solid white;
+      bottom: 97px;
+      left: 78px;
+      font-size: 30px;
+      padding: 10px;
+    }
+
+    .explore3 {
+      font-size: 15px;
+      left: 47%;
+      width: 44%;
+      height: 47px;
+    }
+
+    /* sixth-section */
+
+    #six-check {
+      border-radius: 6px;
+      height: 13%;
+      left: 71%;
+      bottom: 0;
+      width: 23%;
+      top: 76%;
+      font-size: 10px;
+    }
+
+    /* Seventh-Section */
+
+    .myhr4 {
+      left: 18%;
+      width: 6%;
+    }
+
+    .bullets1 {
+      top: 85%;
+    }
+  }
+

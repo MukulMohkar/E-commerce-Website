@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./ecom.css">
+
+</head>
+
+<body>
+
+    <!------------- Navbar-section------------------- --->
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top mynavbar">
+        <div class="container-fluid">
+            <a class="navbar-brand mybrand" href="#"><img src="./Logo.svg" class="Logo" alt="" srcset=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mynav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><strong>Categories</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><strong>Classfieds</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><strong>Offers</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><strong>Business plan</strong></a>
+                    </li>
+
+                </ul>
+                <form class="d-flex nav-search">
+                    <input class="form-control me-2 ser-box" type="search" placeholder="Search products here"
+                        aria-label="Search">
+                    <span class="mysearch"><i class="bi bi-search "></i></span>
+                    <!-- <button class="btn btn-outline-success" type="submit">Search </button> -->
+
+
+                    <a href="">
+                        <!-- <i class="fas fa-envelope fa-lg"></i> -->
+                        <i class="bi bi-bag mybag"></i>
+                        <span class="badge rounded-pill badge-notification bg-danger mynot">03</span>
+                    </a>
+
+                </form>
+                <a class="nav-img" href=""><img src="./mubariz-mehdizadeh-3.png" class="nav-img1" alt="" srcset=""></a>
+            </div>
+
+        </div>
+        <span class="aksh">Mukul Maxx<i class="bi bi-three-dots-vertical"></i></span>
+
+    </nav>
+
+
+
+
+
+
+
+    <!--------------------------- First-Section ------------------>
+    <div class="first">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators bullets">
+                <button type="button" class="mydot" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" class="mydot" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" class="mydot" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+
+                <button type="button" class="mydot" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" class="mydot" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+
+
+            </div>
+            <div class="carousel-inner mycar">
+                <div class="carousel-item active">
+                    <img src="./dom-hill-1.png" class="d-block w-100 dom-img" alt="...">
+                </div>
+                <!-- <div class="carousel-item">
+                    <img src="./photo-4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./photo-19.png" class="d-block w-100" alt="...">
+                </div> -->
+            </div>
+            <button class="carousel-control-prev leftprev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon myprev" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next rightnext" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon mynext" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="first-pass">
+            <p class="pass-1">Get Flat 60% OFF on selected AthleteWear merchandises. *</p>
+            <p class="pass-2">* valid till stock lasts on shopping of Rs2999 or above. Offer stays till December
+                21,2019.
+            </p>
+
+        </div>
+
+        <div class="check">
+            <p class="p-check"> Check It Out
+
+            </p>
+            <i class="bi bi-arrow-right myarrow"></i>
+
+        </div>
+
+        <!-- <span class="aksh">mukul <i class="bi bi-three-dots-vertical"></i></span> -->
+
+    </div>
+
+    <!---------- Second CArd-Section------------>
+
+
+    <h1 class="Products">Products of the day
+        <hr class="myhr">
+    </h1>
+
+    <div class="card-group my-3 mycard-grp">
+        <div class="card mycard">
+            <img src="./photo-4.png" class="card-img-top sec-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title mytitle">SMARTPHONES</h5>
+                    <h5 class="card-title mytitle1 ">40% OFF</h5>
+                    <div class="sec-text">
+                        <div class="sec-text1">
+                            <Section class="card-text">iPhone XS Max </Section>
+                            <p class="card-text"><small class="text-muted mymute">Bhopal Expo </small></p>
+                            <span class="price">Price:</span>
+                            <span class="rupee"> &#x20b9;19,599.00</span>
+                        </div>
+                        <div class="sec-text2">
+                            <span class="star-color"><i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </span>
+                            <span><i class="bi bi-star"></i> </span>
+                            <p class="card-text"><small class="text-muted mymute">(17524 Reviews)</small></p>
+                            <p class="rupee1">
+                                <span> &#x20b9; 149,99.00 </span>
+                                <span class="mrp">MRP</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mycard">
+            <img src="./photo-65.png" class="card-img-top sec-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title mytitle ">APPAREL</h5>
+                    <h5 class="card-title mytitle1 ">40% OFF</h5>
+                    <div class="sec-text">
+                        <div class="sec-text1">
+                            <Section class="card-text">Puma Leather Jacket </Section>
+                            <p class="card-text"><small class="text-muted mymute">Bhopal Expo </small></p>
+                            <span class="price">Price:</span>
+                            <span class="rupee"> &#x20b9;19,599.00</span>
+                        </div>
+                        <div class="sec-text2">
+                            <span class="star-color"><i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </span>
+                            <span><i class="bi bi-star"></i> </span>
+                            <p class="card-text"><small class="text-muted mymute">(17524 Reviews)</small></p>
+                            <p class="rupee1">
+                                <span> &#x20b9; 149,99.00 </span>
+                                <span class="mrp">MRP</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mycard">
+            <img src="./photo-74.png" class="card-img-top sec-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title mytitle">AUDIO & WOOFER</h5>
+                    <h5 class="card-title mytitle1 ">40% OFF</h5>
+                    <div class="sec-text">
+                        <div class="sec-text1">
+                            <Section class="card-text">Sony Smart Speakers </Section>
+                            <p class="card-text"><small class="text-muted mymute">Bhopal Expo </small></p>
+                            <span class="price">Price:</span>
+                            <span class="rupee"> &#x20b9;19,599.00</span>
+                        </div>
+                        <div class="sec-text2">
+                            <span class="star-color"><i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </span>
+                            <span><i class="bi bi-star"></i> </span>
+                            <p class="card-text"><small class="text-muted mymute">(17524 Reviews)</small></p>
+                            <p class="rupee1">
+                                <span> &#x20b9; 149,99.00 </span>
+                                <span class="mrp">MRP</span>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------- Third CArd-Section---------------->
+
+    <h1 class="Products">Top of Categories
+        <hr class="myhr1">
+    </h1>
+
+    <div class="card-group my-3 mycard-grp">
+        <div class="card mycard">
+            <img src="./photo-4.png" class="card-img-top third-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <div class="sec-text1">
+                        <h5 class="card-title mytitle-3">Gadgets & Electronics</h5>
+                        <p class="card-text"><small class="text-muted mute-3">2,954 Products</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mycard">
+            <img src="./photo-19.png" class="card-img-top third-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title mytitle-3 ">Apparel & Accesories</h5>
+                    <p class="card-text"><small class="text-muted mute-3">2,954 Products</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="card mycard">
+            <img src="./asset-14.png" class="card-img-top third-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title  mytitle-3">Home Applicance</h5>
+                    <p class="card-text"><small class="text-muted mute-3">2,954 Products</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mycard">
+            <img src="./photo-111.png" class="card-img-top third-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title mytitle-3">Grociers & Ecdibles</h5>
+                    <p class="card-text"><small class="text-muted mute-3">2,954 Products</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="explore">
+        <p class="p-check"> Explore All</p>
+        <i class="bi bi-arrow-right myarrow"></i>
+    </div>
+
+    <!-- Fourth-section -->
+
+    <div class="fourth">
+        <div class="shoes">
+            <img src="./photo-1491553895911-0055eca6402d.png" class="fourth-img" alt="" srcset="">
+            <section class="fourth-pass1">Men's Shoes Under Rs599</section>
+            <div class="explore1">
+                <p class="p-check"> Explore</p>
+                <i class="bi bi-arrow-right myarrow"></i>
+            </div>
+        </div>
+        <div class="camera">
+            <img src="./photo-100.png" class="fourth-img" alt="" srcset="">
+            <section class="fourth-pass2">DSLR Under Rs2599</section>
+            <div class="explore2">
+                <p class="p-check"> Explore </p>
+                <i class="bi bi-arrow-right myarrow"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------fifth-page---------------->
+    <h1 class="automobile">Automobiles Of the Month
+        <hr class="myhr3">
+    </h1>
+
+    <div class="card-group my-3 mycard-grp">
+        <div class="card mycard">
+            <img src="./photo-1471466054146-e71bcc0d2bb2.png" class="card-img-top sec-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title mytitle">AUTOMOBILE</h5>
+                    <h5 class="card-title mytitle1 ">40% OFF</h5>
+
+                    <div class="sec-text">
+                        <div class="sec-text1">
+                            <Section class="card-text">Yamaha Cruiser </Section>
+                            <p class="card-text"><small class="text-muted mymute">Bhopal Expo </small></p>
+                            <span class="price">Price:</span>
+                            <span class="rupee"> &#x20b9;1,39,599.00</span>
+                        </div>
+                        <div class="sec-text2">
+                            <span class="star-color"><i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </span>
+                            <span><i class="bi bi-star"></i> </span>
+                            <p class="card-text"><small class="text-muted mymute">(17524 Reviews)</small></p>
+                            <p class="rupee1">
+                                <span> &#x20b9; 149,99.00 </span>
+                                <span class="mrp">MRP</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mycard">
+            <img src="./photo-1532895215727-c006c8fdf560.png" class="card-img-top sec-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title mytitle ">AUTOMOBILE</h5>
+                    <h5 class="card-title mytitle1 ">40% OFF</h5>
+                    <div class="sec-text">
+                        <div class="sec-text1">
+                            <Section class="card-text">HD SoftTail Bobber 950 </Section>
+                            <p class="card-text"><small class="text-muted mymute">Bhopal Expo </small></p>
+                            <span class="price">Price:</span>
+                            <span class="rupee"> &#x20b9;19,599.00</span>
+                        </div>
+                        <div class="sec-text2">
+                            <span class="star-color"><i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </span>
+                            <span><i class="bi bi-star"></i> </span>
+                            <p class="card-text"><small class="text-muted mymute">(17524 Reviews)</small></p>
+                            <p class="rupee1">
+                                <span> &#x20b9; 149,99.00 </span>
+                                <span class="mrp">MRP</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mycard">
+            <img src="./photo-1462758295552-26c127a355c0.png" class="card-img-top sec-img" alt="...">
+            <div class="w-100 p-3 my-w">
+                <div class="card-body mybody">
+                    <h5 class="card-title myadvert">ADVERTISE</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore3">
+        <p class="p-check"> Explore Automobiles </p>
+
+        <i class="bi bi-arrow-right myarrow"></i>
+    </div>
+
+    <!---------- Sixth-section---- -->
+
+    <div class="first">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner mycar">
+                <div class="carousel-item active">
+                    <img src="./photo-101.png" class="d-block w-100 dom-img" alt="...">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="first-pass">
+            <p class="pass-1">Get Flat 60% OFF on selected AthleteWear merchandises. *</p>
+            <p class="pass-2">* valid till stock lasts on shopping of Rs2999 or above. Offer stays till December
+                21,2019.
+            </p>
+        </div>
+
+        <div class="check" id="six-check">
+            Loot the Deal
+            <i class="bi bi-arrow-right myarrow"></i>
+        </div>
+
+    </div>
+
+
+    <!--------- Seventh-Section----------- -->
+
+    <h1 class="automobile">VideoGames & Consoles
+        <hr class="myhr4">
+    </h1>
+
+    <div class="seventh">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators bullets1">
+                <button type="button" class="mydot-c" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" class="mydot1" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" class="mydot1" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+
+                <button type="button" class="mydot1" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" class="mydot1" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+
+
+            </div>
+            <div class="carousel-inner mycar">
+
+
+                <div class="card-group my-3 mycard-grp">
+                    <div class="card mycard">
+                        <img src="./asset-15.png" class="card-img-top sec-img" alt="...">
+                        <div class="w-100 p-3 my-w">
+                            <div class="card-body mybody">
+                                <h5 class="card-title mytitle">VIDEOGAME</h5>
+                                <h5 class="card-title mytitle1 ">40% OFF</h5>
+                                <div class="sec-text">
+                                    <div class="sec-text1">
+                                        <Section class="card-text">COD:Black Ops 4 </Section>
+                                        <p class="card-text"><small class="text-muted mymute">Bhopal Expo </small></p>
+                                        <span class="price">Price:</span>
+                                        <span class="rupee"> &#x20b9;19,599.00</span>
+                                    </div>
+                                    <div class="sec-text2">
+                                        <span class="star-color"><i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                        <span><i class="bi bi-star"></i> </span>
+                                        <p class="card-text"><small class="text-muted mymute">(17524 Reviews)</small></p>
+                                        <p class="rupee1">
+                                            <span> &#x20b9; 149,99.00 </span>
+                                            <span class="mrp">MRP</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mycard">
+                        <img src="./witcher-1.png" class="card-img-top sec-img" alt="...">
+                        <div class="w-100 p-3 my-w">
+                            <div class="card-body mybody">
+                                <h5 class="card-title mytitle ">VIDEOGAME</h5>
+                                <h5 class="card-title mytitle1 ">40% OFF</h5>
+                                <div class="sec-text">
+                                    <div class="sec-text1">
+                                        <Section class="card-text">The Witcher 3 - GOTY </Section>
+                                        <p class="card-text"><small class="text-muted mymute">Bhopal Expo </small></p>
+                                        <span class="price">Price:</span>
+                                        <span class="rupee"> &#x20b9;19,599.00</span>
+                                    </div>
+                                    <div class="sec-text2">
+                                        <span class="star-color"><i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                        <span><i class="bi bi-star"></i> </span>
+                                        <p class="card-text"><small class="text-muted mymute">(17524 Reviews)</small></p>
+                                        <p class="rupee1">
+                                            <span> &#x20b9; 149,99.00 </span>
+                                            <span class="mrp">MRP</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mycard">
+                        <img src="./55a59acb39b3c.png" class="card-img-top sec-img" alt="...">
+                        <div class="w-100 p-3 my-w">
+                            <div class="card-body mybody">
+                                <h5 class="card-title mytitle">VIDEOGAME</h5>
+                                <h5 class="card-title mytitle1 ">40% OFF</h5>
+                                <div class="sec-text">
+                                    <div class="sec-text1">
+                                        <Section class="card-text"> Batman:Arkham Knight</Section>
+                                        <p class="card-text"><small class="text-muted mymute">Bhopal Expo </small></p>
+                                        <span class="price">Price:</span>
+                                        <span class="rupee"> &#x20b9;19,599.00</span>
+                                    </div>
+                                    <div class="sec-text2">
+                                        <span class="star-color"><i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                        <span><i class="bi bi-star"></i> </span>
+                                        <p class="card-text"><small class="text-muted mymute">(17524 Reviews)</small></p>
+                                        <p class="rupee1">
+                                            <span> &#x20b9; 149,99.00 </span>
+                                            <span class="mrp">MRP</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev leftprev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon myprev" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next rightnext" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon mynext" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+        <!-- ------footer section------ -->
+        <footer id="footer" class="section footer myfoot">
+            <span class="logo1"><img src="./Logo-1.svg" alt="" srcset=""></span>
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer-top__box">
+                        <h3>Links</h3>
+                        <a class="foot-detail" href="#">Home</a>
+                        <a class="foot-detail" href="#">Category</a>
+                        <a class="foot-detail" href="#">Classfieds</a>
+                        <a class="foot-detail" href="#">Offers</a>
+                    </div>
+                    <div class="footer-top__box">
+                        <h3>About</h3>
+                        <a class="foot-detail" href="#">About Us</a>
+                        <a class="foot-detail" href="#">Contact Us</a>
+                        <a class="foot-detail" href="#">Our Story</a>
+                        <a class="foot-detail" href="#">Business Plan</a>
+                    </div>
+                    <div class="footer-top__box">
+                        <h3>Earn With us</h3>
+                        <a class="foot-detail" href="#">Sell on E-Store</a>
+                        <a class="foot-detail" href="#">Become an Affilate</a>
+                        <a class="foot-detail" href="#">fulfilment E-store</a>
+                        <a class="foot-detail" href="#">Advertise your products</a>
+                    </div>
+                    <div class="footer-top__box">
+                        <h3>Legal</h3>
+                        <a class="foot-detail" href="#">Privacy Policy</a>
+                        <a class="foot-detail" href="#">Terms and Conditions</a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer1">
+            <strong>Designed by MukulMohkar &#10084;</strong>
+        </div>
+
+        <script src="https://kit.fontawesome.com/b4e7ef7e93.js" crossorigin="anonymous"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
